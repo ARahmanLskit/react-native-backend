@@ -1,8 +1,9 @@
 const express = require("express");
 const cors = require("cors");
 
-import { db } from "./api/db";
-import { User } from "./interfaces/user.interface";
+const { db } = require("./api/db");
+
+// import { User } from "./interfaces/user.interface";
 
 const app = express();
 const PORT = 8000;
